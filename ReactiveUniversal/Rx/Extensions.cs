@@ -906,5 +906,43 @@ namespace ReactiveUniversal.Rx {
 		}
 
 		#endregion
+
+		#region PasswordBox Extensions
+
+		public static UIBindingObserver<PasswordBox, string> RxPassword(this PasswordBox control) {
+			return new UIBindingObserver<PasswordBox, string>(control, (ui, password) => {
+				ui.Password = password;
+			});
+		}
+
+		public static UIBindingObserver<PasswordBox, string> RxPasswordChar(this PasswordBox control) {
+			return new UIBindingObserver<PasswordBox, string>(control, (ui, passwordChar) => {
+				ui.PasswordChar = passwordChar;
+			});
+		}
+
+		public static IObservable<RoutedEventArgs> RxPasswordChanged(this PasswordBox control) {
+			return Observable.FromEvent<RoutedEventHandler, RoutedEventArgs>(events => {
+				control.PasswordChanged += events;
+			}, events => {
+				control.PasswordChanged -= events;
+			});
+		}
+
+		public static ControlProperty<string> RxPasswordProperty(this PasswordBox control) {
+			var source = control.RxPasswordChanged()
+				.Select(x => control.Password)
+				.TakeUntil(control.RxUnloaded());
+
+			var bindingObserver = control.RxPassword();
+
+			return new ControlProperty<string>(source, bindingObserver);
+		}
+
+		#endregion
+
+		#region 
+
+		#endregion
 	}
 }

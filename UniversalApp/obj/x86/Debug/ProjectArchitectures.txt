@@ -1,0 +1,2 @@
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\ReactiveUniversal.csproj;neutral
+D:\NET_Workspaces\ReactiveUniversal_Workspace\UniversalApp\UniversalApp.csproj;x86
