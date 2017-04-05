@@ -1,0 +1,17 @@
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\bin\Debug\ReactiveUniversal.dll
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\bin\Debug\ReactiveUniversal.pdb
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\bin\Debug\ReactiveUniversal.pri
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\ReactiveUniversal.csprojResolveAssemblyReference.cache
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\ReactiveUniversal.dll
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\ReactiveUniversal.pdb
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\priconfig.xml
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\priconfig.xml.intermediate
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\layout.resfiles
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\layout.resfiles.intermediate
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\resources.resfiles
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\resources.resfiles.intermediate
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\pri.resfiles
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\pri.resfiles.intermediate
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\qualifiers.txt
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\qualifiers.txt.intermediate
+D:\NET_Workspaces\ReactiveUniversal_Workspace\ReactiveUniversal\obj\Debug\MultipleQualifiersPerDimensionFound.txt
